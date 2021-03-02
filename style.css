@@ -1,9 +1,14 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
 
     direction: rtl;
     text-align: center;
     margin: 0;
-    height: calc(100vh - 143px);
+   
 }
 
 header{
@@ -31,21 +36,35 @@ footer {
 }
 
 .flex-contener {
-    padding: 100px;
     text-align: center;
 }
 
 .row {
     display: flex;
-    justify-content: center;
-    align-content: space-between;
-    
-    
+    justify-content: space-between;
 }
 
 .col {
-    padding: 30px;
-    background-color: gray;
-    border: honeydew 2px solid;
+    width: 293px;
+    height: 355px;
+    border-radius: 0 0 30px 0;
+    justify-content: space-between;
+
+
+}
+
+#one_one {
+    background-image: url("images/1_1.JPG") ;
+    background-repeat: no-repeat;
+}
+
+#one_two {
+    background-image: url("images/1_2.JPG") ;
+    background-repeat: no-repeat;
+}
+
+#one_three {
+    background-image: url("images/1_3.JPG") ;
+    background-repeat: no-repeat;
 }
 
