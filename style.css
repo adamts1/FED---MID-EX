@@ -1,7 +1,7 @@
 body {
 
     direction: rtl;
-    text-align: right;
+    text-align: center;
     margin: 0;
     height: calc(100vh - 143px);
 }
@@ -27,9 +27,25 @@ footer {
     width: 900px;
     margin: 0 auto;
     padding-bottom: 30px;
-    background-color: #909090 ;
+    /* background-color: #909090 ; */
 }
 
 .flex-contener {
-    display: flex
+    padding: 100px;
+    text-align: center;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+    
+}
+
+.col {
+    padding: 30px;
+    background-color: gray;
+    border: honeydew 2px solid;
+}
+
