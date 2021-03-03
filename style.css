@@ -4,20 +4,111 @@
 } */
 
 body {
-
     direction: rtl;
     text-align: center;
     margin: 0;
     font-family: 'Arial (Hebrew)', Arial;
     line-height: 1;
-   
 }
 
+/* /header items/ */
 header{
     width: 100%;
     height: 105px;
     background-image: linear-gradient(#909090, #A8A8A8);
     margin-bottom: 30px;
+}
+
+header li {
+    margin: 0 16px;
+}
+
+nav > ul > li:nth-child(1) { 
+    margin-right: 0px;
+}
+
+.home{
+    width: 17px;
+    background-image: url("images/menu_home.png") ;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: -17px top;
+    float:right; 
+}
+
+.sep {
+    border-right: 2px solid lightgray;
+    margin: 0;
+}
+
+.contener_header {
+    width: 900px;
+    height: 105px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo_div {
+    position: absolute;
+    /* top: 32px;
+    right: 168px; */
+    bottom: -23px;
+    right: -8px;
+}
+
+.input-warper {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+#search{
+    background-image: url("images/search_button.png") ;
+    background-repeat: no-repeat;
+    float: left;
+    width: 19px;
+    height: 19px;
+    transform: translateY(9%);
+}
+
+input {
+    border-radius: 0 10px 0 0;
+    width: 126px;
+    border-color: white;
+}
+
+#eng{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+li {
+    display: inline;
+}
+
+ul{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    padding-inline-start: 0 !important;
+
+}
+
+nav{
+    margin: o auto;
+    position: relative;
+    top: 72px;
+    margin: 0px 127px 0 0;
+}
+
+a{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 h3 {
@@ -40,6 +131,7 @@ footer {
     width: 900px;
     margin: 0 auto;
     padding-bottom: 30px;
+    position: relative;
     /* background-color: #909090 ; */
 }
 
@@ -112,7 +204,7 @@ a.read_more > span {
 }
 
 .area {
-    float: none;
+    /* float: none; */
     padding: 0 0 20px 0;
 }
 .area > span{
