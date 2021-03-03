@@ -29,17 +29,29 @@ nav > ul > li:nth-child(1) {
 
 .home{
     width: 17px;
-    background-image: url("images/menu_home.png") ;
-    background-repeat: no-repeat;
-    height: 33px;
+    position: relative;
+    /* background-image: url("images/menu_home.png") ;
+    background-repeat: no-repeat; */
+    background: url(images/menu_home.png) no-repeat 0 0;
+    display: inline-block;
+    height: 17px;
     background-position: -17px top;
-    float:right; 
+}
+
+.faceboock{
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    /* right: 20px; */
+    width: 18px; 
+    height: 18px;  
+    background: url(images/fb_icon.png) no-repeat 0 0;
 }
 
 .sep {
     border-right: 1px solid lightgray;
     margin: 0;
-}
+} 
 
 .contener_header {
     width: 900px;
@@ -246,3 +258,30 @@ a.read_more > span {
     text-align: right;
 }
 
+
+.footer_a {
+    font-weight: normal;
+    padding: 0 2px;
+}
+
+.footer_menu{
+    margin-top: 10px;
+}
+
+footer li {
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
+.faceboock{
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    /* right: 20px; */
+    width: 18px; 
+    height: 18px;  
+    background: url(images/fb_icon.png) no-repeat 0 0;
+}
