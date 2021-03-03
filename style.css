@@ -3,9 +3,13 @@
     box-sizing: border-box;
 } */
 
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     direction: rtl;
-    text-align: center;
+    text-align: right;
     margin: 0;
     font-family: 'Arial (Hebrew)', Arial;
     line-height: 1;
@@ -30,8 +34,6 @@ nav > ul > li:nth-child(1) {
 .home{
     width: 17px;
     position: relative;
-    /* background-image: url("images/menu_home.png") ;
-    background-repeat: no-repeat; */
     background: url(images/menu_home.png) no-repeat 0 0;
     display: inline-block;
     height: 17px;
@@ -114,6 +116,10 @@ nav{
     margin: 0px 127px 0 0;
 }
 
+nav > a{
+    text-decoration: none;
+}
+
 .dropdown {
     position: relative;
 }
@@ -152,10 +158,10 @@ a{
     font-size: 15px;
     font-weight: bold;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-h3 {
+.low {
     font-size: 14px;
     color: #575757;
     margin-top: 0;
@@ -169,6 +175,7 @@ footer {
     background-image: linear-gradient(#A8A8A8, #909090, #A8A8A8);
     position: fixed;
     bottom: 0;
+    text-align: center;
 }
 
 .contener {
@@ -179,9 +186,9 @@ footer {
     /* background-color: #909090 ; */
 }
 
-.flex-contener {
+/* .flex-contener {
     text-align: center;
-}
+} */
 
 .row {
     display: flex;
@@ -249,7 +256,7 @@ a.read_more > span {
 
 .area {
     /* float: none; */
-    padding: 0 0 20px 0;
+    padding: 0 0 8px 0;
 }
 .area > span{
     /* margin-bottom: 10px; */
@@ -284,4 +291,43 @@ footer li {
     width: 18px; 
     height: 18px;  
     background: url(images/fb_icon.png) no-repeat 0 0;
+}
+
+
+.tab {
+    position: relative;
+}
+
+.fc {
+    position: absolute;
+    background-color: #7E7F7F;
+    opacity: 0.93;
+    left: 34px;
+    bottom: 6px;
+    height: 82px;
+    width: 235px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 0 20px 0;
+    padding: 10px 10px 5px 5px;
+}
+
+.fc p{
+    font-weight: initial;
+    padding: 2px;
+}
+
+.fc a {
+    font-weight: normal;
+    font-size: 11px;
+    text-decoration: underline;
+    float: left;
+}
+
+
+.read_more_a{
+
+    float: none !important;
+    padding: 0px 0 5px 0 !important;
 }
