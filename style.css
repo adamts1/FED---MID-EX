@@ -1,7 +1,7 @@
-/* 
+
 * {
     box-sizing: border-box;
-} */
+}
 
 * {
     padding: 0;
@@ -162,10 +162,10 @@ a{
 }
 
 .low {
-    font-size: 14px;
+    font-size: 13px;
     color: #575757;
     margin-top: 0;
-    line-height: 34px;
+    line-height: 21px;
     border-bottom: 2px solid #ECECEC;
     text-align: right;
 }
@@ -334,25 +334,122 @@ footer li {
 
 /* //// contact //// */
 
-
 .con_row {
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
+    margin-bottom: 40px;;
 }
 
 
-.contact_tab {
-    background-image: linear-gradient(#FDFDFD, #CCCCCC);
+.right {
+    /* background-image: linear-gradient(#FDFDFD, #CCCCCC); */
     /* padding: 20px 10px; */
     flex-basis: 90px;
-    padding:12px 20px;
-    border-top: 0.5px solid lightgray ;
+    padding:10px 3px;
 }
 
-.contact_tab a{
-    color: black;
+.background{
+    border-top: 0.5px solid lightgray ;
+    background-image: linear-gradient(#FDFDFD, #CCCCCC);
+}
+
+.right a{
+    color: #5c5c5c;
     font-weight: normal;
     font-size: 13px;
     text-decoration: none;
     
+}
+
+.center {
+    flex-basis: 481px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.center a, .center span{
+    font-size: 12px;
+    color: #5c5c5c;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+
+.h3_con{
+    border-bottom: none !important;
+    color: #6d6d6d
+}
+
+.paz_blue {
+    color: #005CA0;
+}
+
+.init_font{
+    font-size: 13px;
+    color: #6d6d6d;
+}
+
+.low_col_con {
+    width: 293px;
+    height: 171px;
+    border-radius: 0 30px 0 0;
+    border: 2px #ECECEC solid;
+    background-image: linear-gradient( #FFFFFF, #ECECEC);
+    padding: 10px 18px 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.form_con{
+    width: max-content;
+    /* height: 182px; */
+    height: max-content;
+    border-radius: 0 30px 0 0;
+    border: 2px #ECECEC solid;
+    background-image: linear-gradient( #FFFFFF, #ECECEC);
+    padding: 10px 18px 15px;
+    box-sizing: border-box;
+}
+
+.form_con input[type="text"]{
+    width: 215px;
+    padding: 3px;
+    border: 1px solid #808992;
+    border-radius: unset;
+}
+
+.form_con label{
+    width: 75px;
+    display: inline-block;
+}
+
+.iput_warper{
+    margin-top: 5px;
+}
+
+form{
+    padding: 20px;
+}
+
+
+.submit {
+    /* float: left; */
+    display: inline-block;
+}
+
+.form_con input[type="submit"]{
+    width: 60px;
+    padding: 3px;
+    border: 1px solid #808992;
+    border-radius: unset;
+    float: left;
+    background-color: #0492D3;
+    color: white;
+}
+
+.con_header {
+    position: absolute;
+    top: 45px;
+    width: 431px
 }
