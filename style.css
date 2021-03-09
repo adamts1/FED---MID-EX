@@ -143,7 +143,6 @@ nav > a{
 }
 
 
-
 a:hover{
     color: #005CA0;
     text-decoration: underline;
@@ -168,6 +167,22 @@ a{
     line-height: 21px;
     border-bottom: 2px solid #ECECEC;
     text-align: right;
+}
+
+.low-index {
+        font-size: 14px;
+        color: #575757;
+        margin-top: 0;
+        line-height: 30px;
+        border-bottom: 2px solid #ECECEC;
+        text-align: right;
+        margin-bottom: revert;
+        font-weight: bold;
+    }
+    
+  
+header > div > nav > ul > li > a {
+    text-decoration: none;
 }
 footer {
     width: 100%;
@@ -231,6 +246,8 @@ a.read_more {
     font-size: 13px;
     color: #72716d;
     float: left;
+    font-weight: normal !important;
+    background: url(images/read_more_yellow.png) no-repeat left center;
 }
 
 a.read_more > span {
@@ -387,8 +404,6 @@ footer li {
     font-weight: normal;
     text-decoration: none;
 }
-
-
 
 .h3_con{
     border-bottom: none !important;
