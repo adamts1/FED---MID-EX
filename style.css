@@ -63,7 +63,7 @@ nav > ul > li:nth-child(1) {
 }
 
 .logo_div {
-    position: absolute;
+    position: relative;
     bottom: -23px;
     right: -8px;
 }
@@ -110,7 +110,7 @@ ul{
 
 nav{
     margin: o auto;
-    position: relative;
+    position: absolute;
     top: 72px;
     right: 8px;
     margin: 0px 127px 0 0;
@@ -311,15 +311,12 @@ footer li {
 }
 
 
-.tab {
-    position: relative;
-}
 
 .fc {
-    position: absolute;
-    background-color:  hsla(180, 0%, 50%, 0.93);
-    left: 38px;
-    bottom: 6px;
+    position: relative;
+    background-color: hsla(180, 0%, 50%, 0.93);
+    right: 7px;
+    top: 249px;
     height: 97px;
     width: 248px;
     font-size: 13px;
@@ -377,6 +374,7 @@ footer li {
     /* padding: 20px 10px; */
     flex-basis: 90px;
     padding:10px 3px;
+    background: url(images/side_menu_sprite.png) no-repeat 0 0;
 }
 
 .background{
